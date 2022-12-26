@@ -16,7 +16,7 @@ function ExpenseForm(props) {
   function dateChangeHandler(e) {
     setEnteredDate(e.target.value);
   }
-
+  
 function submitHandler(e){
 e.preventDefault()
 
